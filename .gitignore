@@ -1,0 +1,9 @@
+# Build de Maven: se regenera, nunca se sube.
+target/
+
+# Config del IDE IntelliJ (tuya, no del proyecto).
+.idea/
+*.iml
+
+# Basura del sistema.
+.DS_Store
