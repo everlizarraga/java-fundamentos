@@ -69,7 +69,7 @@ public class BloqueC {
     return mapSegunGenero;
   }
 
-  private static void imprimirMapDeCancionesSegunGenero1(Map<String, List<Cancion>> map) {
+  public static void imprimirMapDeCancionesSegunGenero1(Map<String, List<Cancion>> map) {
     for (Map.Entry<String, List<Cancion>> entrada : map.entrySet()) {
       String genero = entrada.getKey();
       String str = entrada.getValue().stream()
@@ -79,7 +79,7 @@ public class BloqueC {
     }
   }
 
-  private static void imprimirMapDeCancionesSegunGenero2(Map<String, List<Cancion>> map) {
+  public static void imprimirMapDeCancionesSegunGenero2(Map<String, List<Cancion>> map) {
     for (Map.Entry<String, List<Cancion>> entrada : map.entrySet()) {
       String genero = entrada.getKey();
       List<String> canciones = entrada.getValue().stream()
