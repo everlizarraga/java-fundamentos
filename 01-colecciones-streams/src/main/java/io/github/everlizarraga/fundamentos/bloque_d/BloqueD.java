@@ -18,9 +18,9 @@ import java.util.stream.Collectors;
 public class BloqueD {
 
   public static List<Producto> PRODUCTOS = List.of(
-      new Producto("Coca-cola", 5500, TipoProducto.GASEOSA, null),
-      new Producto("Pepsi", 4800, TipoProducto.GASEOSA, null),
-      new Producto("Leche", 7000, TipoProducto.LACTEO, null)
+      new Producto("Coca-cola", 5500, TipoProducto.BEBIDA, null, 0),
+      new Producto("Pepsi", 4800, TipoProducto.BEBIDA, null, 0),
+      new Producto("Leche", 7000, TipoProducto.LACTEO, null, 0)
   );
 
   public static void resolverBloqueD1() {

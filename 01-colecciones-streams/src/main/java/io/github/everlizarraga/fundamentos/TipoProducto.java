@@ -1,6 +1,8 @@
 package io.github.everlizarraga.fundamentos;
 
 public enum TipoProducto {
-  GASEOSA,
+  BEBIDA,
+  LIMPIEZA,
+  SNACK,
   LACTEO
 }
