@@ -7,8 +7,8 @@ streams y consumo de APIs públicas. Cada carpeta es un proyecto independiente.
 
 | #  | Proyecto              | Tema                       | Estado |
 |----|-----------------------|----------------------------|--------|
-| 01 | sintaxis-colecciones  | Tipos, listas, mapas       | ✅     |
-| 02 | streams               | Java Streams API           | 🚧     |
+| 01 | colecciones-streams  | Tipos, listas, mapas       | ✅     |
+| 02 | optional               | Optional a fondo           | 🚧     |
 | 03 | consumo-api-publica   | HttpClient + JSON          | ⬜     |
 
 ## Cómo correr un proyecto
