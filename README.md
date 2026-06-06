@@ -8,8 +8,8 @@ streams y consumo de APIs públicas. Cada carpeta es un proyecto independiente.
 | #  | Proyecto              | Tema                       | Estado |
 |----|-----------------------|----------------------------|--------|
 | 01 | colecciones-streams  | Tipos, listas, mapas       | ✅     |
-| 02 | optional               | Optional a fondo           | 🚧     |
-| 03 | consumo-api-publica   | HttpClient + JSON          | ⬜     |
+| 02 | optional               | Optional a fondo           | ✅     |
+| 03 | consumo-api-publica   | HttpClient + JSON          | 🚧     |
 
 ## Cómo correr un proyecto
 1. Abrí la carpeta del proyecto en IntelliJ (o `cd <carpeta>`).

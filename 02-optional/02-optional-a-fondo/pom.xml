@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>optional-basico</artifactId>
+    <artifactId>optional-a-fondo</artifactId>
 
     <build>
         <plugins>
@@ -18,11 +18,10 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.5.0</version>
                 <configuration>
-                    <!-- el Main de ESTE módulo -->
-                    <!-- mvn compile exec:java -pl 01-optional-basico -->
-                    <!-- mvn compile exec:java -pl :optional-basico  -->
-                    <!-- mvn compile exec:java -pl io.github.everlizarraga.fundamentos:optional-basico  -->
-                    <mainClass>io.github.everlizarraga.fundamentos.basico.Main</mainClass>
+                    <!-- mvn compile exec:java -pl 02-optional-a-fondo -->
+                    <!-- mvn compile exec:java -pl :optional-a-fondo -->
+                    <!-- mvn compile exec:java -pl io.github.everlizarraga.fundamentos:optional-a-fondo  -->
+                    <mainClass>io.github.everlizarraga.fundamentos.afondo.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>

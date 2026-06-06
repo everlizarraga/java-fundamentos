@@ -10,7 +10,8 @@
     <packaging>pom</packaging>          <!-- ① ahora es COORDINADOR, no genera código -->
 
     <modules>
-        <module>01-optional-basico</module>      <!-- ② la CARPETA del módulo (no el artifactId) -->
+        <module>01-optional-basico</module>
+        <module>02-optional-a-fondo</module>      <!-- ② la CARPETA del módulo (no el artifactId) -->
     </modules>
 
     <properties>
