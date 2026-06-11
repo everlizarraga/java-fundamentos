@@ -1,7 +1,11 @@
 package io.github.everlizarraga.fundamentos.afondo;
 
+import io.github.everlizarraga.fundamentos.afondo.ejercicios.Fase3;
+
 public class Main {
+
   public static void main(String[] args) {
-    System.out.println("optional-a-fondo arriba 🚀 !!!");
+    Fase3.resolverEjercicio();
   }
+
 }
